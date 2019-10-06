@@ -1,0 +1,81 @@
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #1C2327;
+}
+.header .contaner{
+	display: flex;
+	justify-content: space-between;
+}
+.header .title{
+	color: #fff;
+	font-size: 1.2rem;
+	line-height: 60px;
+}
+
+.header .header_nav{
+	display: flex;
+	justify-content: space-between;
+	line-height: 60px;
+	color: #fff;
+}
+.header .header_nav li{
+	padding: 0 10px;
+	position: relative;
+}
+.header .drop{
+	position: absolute;
+	top: 60px;
+	z-index: 10;
+	background-color: #1C2327;
+	display: none;
+}
+.header .header_nav li .iconNav{
+	font-size: 0.5rem;
+	transition: all .5s;
+}
+.header .header_nav li:hover{
+	color: #EB6841;
+	
+}
+
+.header .icon{
+	color: #fff;
+	font-size: 1.5rem;
+	line-height: 60px;
+}
+
+/* 搜索 */
+.search{
+	background-color: #fff;
+	margin-top: 10px;
+	padding: 20px 0;
+	position: relative;
+}
+.search .searchBox{
+	margin: auto;
+	width: 642px;
+}
+.search .searchBox input[type=text]{
+	height: 36px;
+	width: 430px;
+	padding-left: 10px;
+	line-height: 36px;
+	border: 1px solid rgb(153, 153, 153);
+	color: #000;
+}
+.search .searchBox button{
+	height: 38px;
+	width: 200px;
+	line-height: 36px;
+	border: 1px solid rgb(65, 65, 65);
+	background-color: rgb(65, 65, 65);
+	color: #fff;
+	text-align: center;
+}
+.search .searchBox .closeBox{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	
+}

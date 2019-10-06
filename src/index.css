@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.8rem;
+  background-color: #E9EAED;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*
+ * inherit  继承父属性
+   initial  继承默认属性（他上级中有定义过的）
+ */
+
+
+/* 通用样式 */
+body,
+html,
+head,
+div,
+dl,dt,dd,
+ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,
+form,input,textarea,select,button,
+p,
+img,
+a,
+header,
+main,
+footer
+{padding:0;margin:0;}
+a{
+  text-decoration:none;
+  color:#555;
+}
+ul,li{
+  list-style:none
+}
+/* 去边 */
+input,textarea,select,button{border: 0;cursor: pointer;}
+input,textarea,select,button:focus {outline:none;}/*for IE*/
+input,textarea,select,button::-webkit-focus-inner {border-color: transparent;}
+input,textarea,select,button::-ms-focus-inner {border-color: transparent;}
+input,textarea,select,button::-moz-focus-inner {border-color: transparent;}
+input,textarea,select,button::focus-inner {border-color: transparent;}
+input,textarea,select,button::-webkit-input-placeholder{color: #888;}
+input,textarea,select,button::-moz-placeholder {color: #888;}
+input,textarea,select,button::-ms-input-placeholder {color: #888;}
+input,textarea,select,button::placeholder { color: #888;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+
+
+.icon{
+  font-size: 1.5rem;
+  color: #fff;
+}
+/* 手势 */
+.hand{
+  cursor: pointer;
+}
+
+/* padding */
+.paddingN{
+  padding: 20px;
+}
+
+/* 通用box */
+.boxSing{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
